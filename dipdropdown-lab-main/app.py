@@ -69,10 +69,7 @@ def import_and_predict():
     
 if st.button("Click To Perform Operation"):
   result=import_and_predict()
-  
-if st.button("About"):
-  st.header("Dikshant Mali")
-  st.subheader("Student, Department of Computer Engineering, PIET")
+ 
 html_temp = """
    <div class="" style="background-color:white;" >
    <div class="clearfix">           
